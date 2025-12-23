@@ -17,6 +17,9 @@ include $(DEVKITPRO)/libnx/switch_rules
 # INCLUDES is a list of directories containing header files
 # EXEFS_SRC is the optional input directory containing data copied into exefs, if anything this normally should only contain "main.npdm".
 #---------------------------------------------------------------------------------
+APP_TITLE	:=	sys-ftpd
+APP_VERSION	:=	v1.0.6
+
 TARGET		:=	sys-ftpd
 BUILD		:=	build
 SOURCES		:=	source
